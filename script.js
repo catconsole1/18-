@@ -16,7 +16,7 @@ function loadCategory(category) {
 
     for (let i = 1; i <= 50; i++) {
         const id = `${category}${i}`;
-        const imgPath = `images/${category}/${id}.png`;
+        const imgPath = `image/${category}/${id}.png`;
 
         const card = document.createElement("div");
         card.className = "card";
@@ -54,3 +54,4 @@ function openModal(src) {
 function closeModal() {
     document.getElementById("modal").style.display = "none";
 }
+
